@@ -1,5 +1,3 @@
 #!/bin/bash
 
-{ ifconfig en0; ifconfig en1; } | grep 'ether' | sed -e 's/ether//g' 
-
-
+ifconfig | grep 'ether' | sed 's/[[:space:]]ether//g'
