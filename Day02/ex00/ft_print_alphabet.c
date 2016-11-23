@@ -1,5 +1,4 @@
-#include <stdio.h> 
-int ft_putchar(char c);
+#include "main.h"
 
 void ft_print_alphabet(void)
 {
@@ -8,10 +7,10 @@ void ft_print_alphabet(void)
 	letter = 'a';
 
 	while (letter <= 'z')
-	{
-		ft_putchar(letter);
-		letter++;
-	}
+		{
+			ft_putchar(letter);
+			letter++;
+		}
 
+		return ;
 }
-
