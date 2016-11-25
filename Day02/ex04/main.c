@@ -1,6 +1,10 @@
 #include "main.h"
+#include <unistd.h>
+
+void swap
 
 int main(void){
-	ft_print_alphabet();
+
+
 	return 0;
 }
