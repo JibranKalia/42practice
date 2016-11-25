@@ -1,6 +1,7 @@
 #include "main.h"
 
-int main(void){
+int	main(void)
+{
 	ft_print_alphabet();
-	return 0;
+	return (0);
 }
