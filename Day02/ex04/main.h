@@ -2,6 +2,6 @@
 #define MAIN_H
 
 void ft_putchar(char c);
-void ft_is_negative(int n);
+void ft_print_comb(void);
 
 #endif

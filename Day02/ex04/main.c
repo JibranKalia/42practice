@@ -1,10 +1,9 @@
-#include "main.h"
 #include <unistd.h>
+#include <stdio.h>
+#include "main.h"
 
-void swap
-
-int main(void){
-
-
-	return 0;
+int main(void)
+{
+	ft_print_comb();
+	return (0);
 }
