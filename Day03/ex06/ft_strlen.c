@@ -1,7 +1,6 @@
 #include "main.h"
-#include <stdio.h>
 
-int 	ft_strlen(char *str)
+int ft_strlen(char *str)
 {
 	int i;
 	i = 0;
