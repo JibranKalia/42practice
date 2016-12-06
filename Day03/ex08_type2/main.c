@@ -3,7 +3,7 @@
 
 int	main(void)
 {
-	char string[] = "-dd";
+	char string[] = "\n55";
 
 	int answer = ft_atoi(string);
 
