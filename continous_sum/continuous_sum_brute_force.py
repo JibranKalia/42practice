@@ -1,3 +1,5 @@
+# Continous Sum - Brute Force Solution
+
 arr = [-3, 3, 4, 5, -4, 7, 11]
 max = arr[0]
 def recur(list):
