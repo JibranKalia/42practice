@@ -11,3 +11,6 @@ def recur(list):
 for i in range(0, len(arr)):
   recur(arr[i:])
 print(max)
+
+
+## Initial Brute force solution. Not very good at that.
