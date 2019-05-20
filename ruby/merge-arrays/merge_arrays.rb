@@ -1,9 +1,31 @@
-def merge_arrays(my_array, alices_array)
+def merge_arrays(arr1, arr2)
 
   # Combine the sorted arrays into one large sorted array
-  
+  ret = []
+  i1 = 0
+  i2 = 0
+  len1 = arr1.length
+  len2 = arr2.length
 
-  []
+  while i1 < len1 && i2 < len2
+    if arr1[i1] <= arr2[i2]
+      ret.push(arr1[i1])
+      i1 += 1
+    else
+      ret.push(arr2[i2])
+      i2 += 1
+    end
+  end
+  while i1 < len1
+    ret.push(arr1[i1])
+    i1 += 1
+  end
+  while i2 < len2
+    ret.push(arr2[i2])
+    i2 += 1
+  end
+
+  ret
 end
 
 
